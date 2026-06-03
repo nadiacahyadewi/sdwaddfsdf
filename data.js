@@ -7,7 +7,7 @@ const quizData = [
         "jawaban": "C. 6",
         "penjelasan": "Awal: [2, 4, 6, 8] (Top = 8)\nPop -> [2, 4, 6]\nPush 3 -> [2, 4, 6, 3]\nPop -> [2, 4, 6]\nPush 4 -> [2, 4, 6, 4]\nPush 6 -> [2, 4, 6, 4, 6]\nPush 7 -> [2, 4, 6, 4, 6, 7]\nPop -> [2, 4, 6, 4, 6]\nPop -> [2, 4, 6, 4]\nPop -> [2, 4, 6] (Top = 6)",
         "images": [
-            "../Sample Soft Dev/1.jpg"
+            "./Sample Soft Dev/1.jpg"
         ],
         "ui_info": {
             "type": "multiple-choice",
@@ -28,7 +28,7 @@ const quizData = [
         "jawaban": "C. protected",
         "penjelasan": "'protected' membatasi akses hanya di dalam class itu sendiri dan class yang mewarisinya (derived class). 'private' hanya untuk class itu sendiri, 'internal' untuk assembly yang sama, dan 'public' bisa diakses dari mana saja.",
         "images": [
-            "../Sample Soft Dev/2.jpg"
+            "./Sample Soft Dev/2.jpg"
         ],
         "ui_info": {
             "type": "multiple-choice",
@@ -49,8 +49,8 @@ const quizData = [
         "jawaban": "1. View: user clicks button\n2. Controller: converts event into request\n3. Model: validates request, stores data\n4. Controller: interprets and passes data\n5. View: displays data",
         "penjelasan": "Alur standar MVC (Model-View-Controller) dimulai dari interaksi pengguna pada View, yang mengirimkan event ke Controller. Controller mengubahnya menjadi request ke Model. Model memvalidasi dan menyimpan data, lalu Controller menginterpretasikan dan meneruskan data tersebut kembali ke View untuk ditampilkan.",
         "images": [
-            "../Sample Soft Dev/3-1.jpg",
-            "../Sample Soft Dev/3-2.jpg"
+            "./Sample Soft Dev/3-1.jpg",
+            "./Sample Soft Dev/3-2.jpg"
         ],
         "ui_info": {
             "type": "generic"
@@ -64,7 +64,7 @@ const quizData = [
         "jawaban": "C. As XML",
         "penjelasan": "Document database (seperti MongoDB, CouchDB) menyimpan data dalam format dokumen terstruktur seperti JSON, BSON, atau XML. Opsi A merujuk ke Graph database, opsi B merujuk ke Relational database, dan opsi D merujuk ke Key-Value store.",
         "images": [
-            "../Sample Soft Dev/4.jpg"
+            "./Sample Soft Dev/4.jpg"
         ],
         "ui_info": {
             "type": "multiple-choice",
@@ -85,7 +85,7 @@ const quizData = [
         "jawaban": "B. Serialization",
         "penjelasan": "Serialisasi (Serialization) adalah proses menerjemahkan struktur data atau state dari sebuah objek menjadi format yang dapat disimpan atau ditransmisikan (seperti XML atau JSON). Proses sebaliknya (dari XML ke objek) disebut Deserialization.",
         "images": [
-            "../Sample Soft Dev/5.jpg"
+            "./Sample Soft Dev/5.jpg"
         ],
         "ui_info": {
             "type": "multiple-choice",
@@ -106,7 +106,7 @@ const quizData = [
         "jawaban": "D. 30",
         "penjelasan": "Mari kita periksa kondisinya:\n- Kondisi pertama (a <= b && c <= a): 10 <= 20 (Benar) dan 30 <= 10 (Salah). Karena menggunakan logika AND (&&), keseluruhan kondisi bernilai Salah.\n- Kondisi kedua (a <= b && b >= c): 10 <= 20 (Benar) dan 20 >= 30 (Salah). Keseluruhan kondisi bernilai Salah.\n- Karena kedua kondisi 'if' dan 'else if' salah, maka program akan masuk ke blok 'else', sehingga nilai result di-set menjadi 30.",
         "images": [
-            "../Sample Soft Dev/6.jpg"
+            "./Sample Soft Dev/6.jpg"
         ],
         "ui_info": {
             "type": "multiple-choice",
@@ -127,7 +127,7 @@ const quizData = [
         "jawaban": "A. boolean",
         "penjelasan": "Tipe data 'boolean' hanya dapat memiliki dua nilai: True atau False (Benar atau Salah). Ini sangat cocok untuk merekam kondisi biner (benar/salah) dan memakan ukuran memori paling kecil dibandingkan tipe data string, integer, maupun double.",
         "images": [
-            "../Sample Soft Dev/7.jpg"
+            "./Sample Soft Dev/7.jpg"
         ],
         "ui_info": {
             "type": "multiple-choice",
@@ -148,7 +148,7 @@ const quizData = [
         "jawaban": "B dan E",
         "penjelasan": "Test case unit yang efektif harus mendefinisikan keadaan awal atau prasyarat (pre-conditions) agar tes dapat berjalan dengan benar. Selain itu, tes harus mendefinisikan hasil yang diharapkan (expected result) agar program bisa mengevaluasi apakah hasil aktualnya sesuai dengan ekspektasi atau tidak.",
         "images": [
-            "../Sample Soft Dev/8.jpg"
+            "./Sample Soft Dev/8.jpg"
         ],
         "ui_info": {
             "type": "multiple-choice",
@@ -170,7 +170,7 @@ const quizData = [
         "jawaban": "A. Boxing",
         "penjelasan": "Boxing adalah proses mengubah struktur tipe nilai (value type) ke tipe referensi objek (object reference type) secara implisit. Sebaliknya, Unboxing adalah proses mengekstrak kembali nilai (value type) dari sebuah objek tipe referensi.",
         "images": [
-            "../Sample Soft Dev/9.jpg"
+            "./Sample Soft Dev/9.jpg"
         ],
         "ui_info": {
             "type": "multiple-choice",
@@ -191,7 +191,7 @@ const quizData = [
         "jawaban": "A dan D",
         "penjelasan": "Normalisasi (Normalization) merancang struktur database secara sistematis untuk mengurangi redundansi data, yang berdampak pada penurunan penggunaan ruang penyimpanan (disk space). Selain itu, dengan menghilangkan redudansi dan anomali (insertion, update, deletion anomalies), normalisasi mencegah ketidakkonsistenan data (data inconsistencies).",
         "images": [
-            "../Sample Soft Dev/10.jpg"
+            "./Sample Soft Dev/10.jpg"
         ],
         "ui_info": {
             "type": "multiple-choice",
@@ -212,7 +212,7 @@ const quizData = [
         "jawaban": "A, B, D",
         "penjelasan": "Connection pooling menyimpan sekumpulan koneksi database yang sudah terbuka agar dapat digunakan ulang. Ini mengurangi waktu pembuatan koneksi (Reduced time), meningkatkan performa (Improved performance), dan memungkinkan aplikasi menangani lebih banyak pengguna secara bersamaan (Improved scalability).",
         "images": [
-            "../Sample Soft Dev/11.jpg"
+            "./Sample Soft Dev/11.jpg"
         ],
         "ui_info": {
             "type": "multiple-choice",
@@ -234,7 +234,7 @@ const quizData = [
         "jawaban": "1. branch: Manages a line of development\n2. commit: Updates all or part of the working project\n3. rollback: Points your local project back to a previous state\n4. merge: Brings the content of another project into the current project",
         "penjelasan": "'branch' membuat jalur pengembangan baru. 'commit' menyimpan/memperbarui perubahan pada repositori. 'rollback' mengembalikan status proyek ke titik sebelumnya. 'merge' menggabungkan perubahan dari branch/proyek lain ke proyek saat ini.",
         "images": [
-            "../Sample Soft Dev/12.jpg"
+            "./Sample Soft Dev/12.jpg"
         ],
         "ui_info": {
             "type": "matching",
@@ -255,7 +255,7 @@ const quizData = [
         "jawaban": "False, True, True",
         "penjelasan": "1 (False): Tanda tangan digital ditandatangani menggunakan private key (kunci privat) pengirim, bukan public key. 2 (True): CSRF token memang merupakan standar untuk mencegah serangan request palsu dari lintas situs. 3 (True): Melakukan escaping atau validasi input adalah salah satu cara untuk mencegah SQL Injection.",
         "images": [
-            "../Sample Soft Dev/13.jpg"
+            "./Sample Soft Dev/13.jpg"
         ],
         "ui_info": {
             "type": "true-false",
@@ -275,7 +275,7 @@ const quizData = [
         "jawaban": "C. EventA = EventHandlerA;",
         "penjelasan": "Dalam C#, sebuah Event ('EventA') tidak dapat di-assign secara langsung menggunakan operator '=' dari luar kelas tempat ia dideklarasikan. Kita hanya bisa menambahkan (+=) atau mengurangi (-=) handler dari event tersebut.",
         "images": [
-            "../Sample Soft Dev/14.jpg"
+            "./Sample Soft Dev/14.jpg"
         ],
         "ui_info": {
             "type": "multiple-choice",
@@ -296,7 +296,7 @@ const quizData = [
         "jawaban": "B. abstract",
         "penjelasan": "Class 'abstract' (abstrak) tidak dapat di-instansiasi langsung (tidak bisa di-new). Class ini digunakan sebagai blueprint yang menyediakan kerangka (termasuk metode abstrak) yang wajib diimplementasikan oleh class-class turunannya.",
         "images": [
-            "../Sample Soft Dev/15.jpg"
+            "./Sample Soft Dev/15.jpg"
         ],
         "ui_info": {
             "type": "multiple-choice",
@@ -317,7 +317,7 @@ const quizData = [
         "jawaban": "A. Function calls are stored on the stack. After a function completes, all its data is popped off the stack, leaving the last instruction at the top.",
         "penjelasan": "Setiap pemanggilan fungsi beserta variabel lokalnya disimpan di dalam Call Stack. Ketika fungsi (Blue) selesai, instruksi atau datanya di-'pop' (dikeluarkan) dari stack, dan eksekusi dilanjutkan dari posisi fungsi pemanggilnya (Red) yang kini berada di posisi atas stack.",
         "images": [
-            "../Sample Soft Dev/16.jpg"
+            "./Sample Soft Dev/16.jpg"
         ],
         "ui_info": {
             "type": "multiple-choice",
@@ -338,7 +338,7 @@ const quizData = [
         "jawaban": "B dan C",
         "penjelasan": "Objek JSON dibangun dengan menggunakan pasangan kunci/nilai (name/value pairs) dan bersifat extensible (dapat diperluas atau ditambah elemen baru kapan saja). JSON tidak mengenal konsep 'namespace' bawaan, dan urutan tidak dijamin dalam JSON Object (sedangkan ordered list adalah JSON Array).",
         "images": [
-            "../Sample Soft Dev/17.jpg"
+            "./Sample Soft Dev/17.jpg"
         ],
         "ui_info": {
             "type": "multiple-choice",
@@ -359,8 +359,8 @@ const quizData = [
         "jawaban": "1. public override void Display()\n2. public void DisplayRaw()\n3. void IDisplayResult.Display()",
         "penjelasan": "Berdasarkan output yang diminta: '99 seconds' muncul dari pemanggilan r1.Display() sehingga itu hasil override dari base (deklarasi 1). '99' berasal dari pemanggilan r1.DisplayRaw() yang memanggil base.Display() (deklarasi 2). '1.65 minutes' dipanggil via interface r2 (IDisplayResult.Display), ini adalah implementasi eksplisit interface (deklarasi 3).",
         "images": [
-            "../Sample Soft Dev/18-1.jpg",
-            "../Sample Soft Dev/18-2.jpg"
+            "./Sample Soft Dev/18-1.jpg",
+            "./Sample Soft Dev/18-2.jpg"
         ],
         "ui_info": {
             "type": "generic"
@@ -374,8 +374,8 @@ const quizData = [
         "jawaban": "1. linear-gradient(to bottom, green, black);\n2. 10px;",
         "penjelasan": "Grafik memiliki warna hijau di atas dan gradasi memudar menjadi hitam di bawah, sehingga 'to bottom, green, black' adalah perintah gradient yang benar. Sudut objek tersebut melengkung rata di setiap sudut, sehingga nilainya cukup menggunakan '10px' saja.",
         "images": [
-            "../Sample Soft Dev/19-1.jpg",
-            "../Sample Soft Dev/19-2.jpg"
+            "./Sample Soft Dev/19-1.jpg",
+            "./Sample Soft Dev/19-2.jpg"
         ],
         "ui_info": {
             "type": "dropdown",
@@ -406,7 +406,7 @@ const quizData = [
         "jawaban": "B. Use an external style sheet.",
         "penjelasan": "Untuk menggunakan style yang seragam (bisa dipakai ulang) di seluruh halaman pada satu web aplikasi secara efisien dan memisahkan struktur (HTML) dan gaya (CSS), praktik terbaiknya adalah dengan membuat dan menggunakan Eksternal Style Sheet (.css file).",
         "images": [
-            "../Sample Soft Dev/20.jpg"
+            "./Sample Soft Dev/20.jpg"
         ],
         "ui_info": {
             "type": "multiple-choice",
@@ -427,7 +427,7 @@ const quizData = [
         "jawaban": "C. To execute code only when an exception is thrown",
         "penjelasan": "Blok catch digunakan untuk menangkap dan menangani exception (error) yang terjadi di dalam blok try. Kode di dalamnya hanya akan dieksekusi jika terjadi exception.",
         "images": [
-            "../Sample Soft Dev/21.jpg"
+            "./Sample Soft Dev/21.jpg"
         ],
         "ui_info": {
             "type": "multiple-choice",
@@ -448,7 +448,7 @@ const quizData = [
         "jawaban": "False, True, True",
         "penjelasan": "1 (False): Unit testing menguji komponen secara terisolasi, bukan integrasi seluruh aplikasi. 2 (True): Unit test memberikan input dan memverifikasi output/return value. 3 (True): Ini adalah definisi dan tujuan utama dari Unit Testing.",
         "images": [
-            "../Sample Soft Dev/22.jpg"
+            "./Sample Soft Dev/22.jpg"
         ],
         "ui_info": {
             "type": "true-false",
@@ -468,7 +468,7 @@ const quizData = [
         "jawaban": "D. Hosting",
         "penjelasan": "Hosting adalah proses menempatkan file web aplikasi dan databasenya di sebuah server yang terhubung ke internet sehingga dapat diakses oleh klien secara online.",
         "images": [
-            "../Sample Soft Dev/23.jpg"
+            "./Sample Soft Dev/23.jpg"
         ],
         "ui_info": {
             "type": "multiple-choice",
@@ -489,8 +489,8 @@ const quizData = [
         "jawaban": "D. m1, m2, and m3",
         "penjelasan": "Class C mewarisi B, dan B mewarisi A. Oleh karena itu, C memiliki akses ke metodenya sendiri (m3) dan metode protected dari semua class induknya (m1 dari A, m2 dari B). C tidak dapat mengakses m4 karena m4 berada di class D (sibling/saudara), bukan parent.",
         "images": [
-            "../Sample Soft Dev/24-1.jpg",
-            "../Sample Soft Dev/24-2.jpg"
+            "./Sample Soft Dev/24-1.jpg",
+            "./Sample Soft Dev/24-2.jpg"
         ],
         "ui_info": {
             "type": "multiple-choice",
@@ -513,9 +513,9 @@ const quizData = [
         "jawaban": "1. an IP\n2. an HTTP\n3. an FTP",
         "penjelasan": "Setiap server di internet diidentifikasi secara unik oleh alamat IP. Komunikasi standar untuk melayani halaman web adalah melalui HTTP (Hypertext Transfer Protocol). Untuk memodifikasi (mengunggah/menghapus) file di server secara langsung, protokol yang umum digunakan adalah FTP (File Transfer Protocol).",
         "images": [
-            "../Sample Soft Dev/25-1.jpg",
-            "../Sample Soft Dev/25-2.jpg",
-            "../Sample Soft Dev/25-3.jpg"
+            "./Sample Soft Dev/25-1.jpg",
+            "./Sample Soft Dev/25-2.jpg",
+            "./Sample Soft Dev/25-3.jpg"
         ],
         "ui_info": {
             "type": "dropdown",
@@ -550,7 +550,7 @@ const quizData = [
         "jawaban": "C. One-to-many",
         "penjelasan": "Simbol crow's foot (kaki gagak) pada entitas Order menunjukkan bahwa satu entitas Customer dapat memiliki banyak entitas Order. Oleh karena itu, hubungan ini adalah One-to-many (Satu ke banyak).",
         "images": [
-            "../Sample Soft Dev/26.jpg"
+            "./Sample Soft Dev/26.jpg"
         ],
         "ui_info": {
             "type": "multiple-choice",
@@ -572,7 +572,7 @@ const quizData = [
         "jawaban": "True, False, False",
         "penjelasan": "1 (True): Properti 'internal' dapat diakses oleh class manapun di dalam assembly/proyek yang sama. 2 (False): Properti 'protected' hanya bisa diakses oleh class itu sendiri atau class turunannya. (Landscape bukan turunan Tree). 3 (False): Properti 'private' hanya bisa diakses dari dalam class tempat ia dideklarasikan.",
         "images": [
-            "../Sample Soft Dev/27.jpg"
+            "./Sample Soft Dev/27.jpg"
         ],
         "ui_info": {
             "type": "true-false",
@@ -592,7 +592,7 @@ const quizData = [
         "jawaban": "C. DELETE FROM Items WHERE (Items.Completed = 1)",
         "penjelasan": "Dalam SQL, nilai Boolean 'True' sering direpresentasikan sebagai 1. Sintaks yang benar untuk menghapus data dengan kondisi adalah 'DELETE FROM nama_tabel WHERE kondisi', sehingga opsi C adalah yang paling tepat.",
         "images": [
-            "../Sample Soft Dev/28.jpg"
+            "./Sample Soft Dev/28.jpg"
         ],
         "ui_info": {
             "type": "multiple-choice",
@@ -613,7 +613,7 @@ const quizData = [
         "jawaban": "D. SelectMany",
         "penjelasan": "Operator SelectMany pada LINQ digunakan untuk memproyeksikan setiap elemen dari sebuah sequence menjadi sequence baru, dan kemudian meratakan (flatten) sequence-sequence yang dihasilkan tersebut menjadi satu sequence tunggal.",
         "images": [
-            "../Sample Soft Dev/29.jpg"
+            "./Sample Soft Dev/29.jpg"
         ],
         "ui_info": {
             "type": "multiple-choice",
@@ -634,9 +634,9 @@ const quizData = [
         "jawaban": "Top-Right: Controller, Bottom-Right: Model, Bottom-Left: View",
         "penjelasan": "Dalam alur aplikasi web MVC tradisional: Pengguna (User) mengirim request ke Controller (Top-Right). Controller mengolah logika dan memperbarui Model (Bottom-Right). Setelah itu, Controller memilih View (Bottom-Left) dan meneruskan data Model kepadanya. View kemudian di-render menjadi antarmuka untuk Pengguna.",
         "images": [
-            "../Sample Soft Dev/30-1.jpg",
-            "../Sample Soft Dev/30-2.jpg",
-            "../Sample Soft Dev/30-3.jpg"
+            "./Sample Soft Dev/30-1.jpg",
+            "./Sample Soft Dev/30-2.jpg",
+            "./Sample Soft Dev/30-3.jpg"
         ],
         "ui_info": {
             "type": "dropdown",
@@ -661,7 +661,7 @@ const quizData = [
         "jawaban": "B. 10",
         "penjelasan": "Pada statement kondisi pertama: (a <= b || c > a). Karena nilai a (10) kurang dari b (20), maka 'a <= b' bernilai True. Karena menggunakan operator OR (||), jika salah satu kondisi True, keseluruhan bernilai True. Oleh karena itu, blok if pertama langsung dieksekusi dan result menjadi 10.",
         "images": [
-            "../Sample Soft Dev/31.jpg"
+            "./Sample Soft Dev/31.jpg"
         ],
         "ui_info": {
             "type": "multiple-choice",
@@ -682,7 +682,7 @@ const quizData = [
         "jawaban": "D. A protected virtual member function",
         "penjelasan": "Untuk dapat di-override, sebuah metode harus ditandai sebagai 'virtual' (atau abstract/override) di class induknya, DAN harus dapat diakses oleh class turunannya. Fungsi 'private virtual' tidak bisa diakses dari class turunan, sehingga tidak bisa di-override. Yang bisa adalah 'protected virtual' atau 'public virtual'.",
         "images": [
-            "../Sample Soft Dev/32.jpg"
+            "./Sample Soft Dev/32.jpg"
         ],
         "ui_info": {
             "type": "multiple-choice",
@@ -703,7 +703,7 @@ const quizData = [
         "jawaban": "A. Upcasting",
         "penjelasan": "Upcasting adalah proses mengubah referensi dari class turunan (spesifik) menjadi class induk (lebih general). Ini selalu aman (implicit). Downcasting adalah sebaliknya, dari class induk ke class turunan.",
         "images": [
-            "../Sample Soft Dev/33.jpg"
+            "./Sample Soft Dev/33.jpg"
         ],
         "ui_info": {
             "type": "multiple-choice",
@@ -724,9 +724,9 @@ const quizData = [
         "jawaban": "1. setInterval(\n2. updateClock\n3. 1000",
         "penjelasan": "Fungsi setInterval() digunakan untuk memanggil fungsi secara berulang pada interval waktu tertentu (dalam milidetik). Karena diminta untuk update setiap detik (1 detik = 1000 milidetik), maka kita gunakan setInterval(updateClock, 1000).",
         "images": [
-            "../Sample Soft Dev/34-1.jpg",
-            "../Sample Soft Dev/34-2.jpg",
-            "../Sample Soft Dev/34-3.jpg"
+            "./Sample Soft Dev/34-1.jpg",
+            "./Sample Soft Dev/34-2.jpg",
+            "./Sample Soft Dev/34-3.jpg"
         ],
         "ui_info": {
             "type": "dropdown",
@@ -767,7 +767,7 @@ const quizData = [
         "jawaban": "D. Derived class",
         "penjelasan": "Class yang menerima/mewarisi fungsionalitas disebut 'Derived class' (class turunan). Class yang memberikan/diwariskan disebut 'Base class' (class dasar).",
         "images": [
-            "../Sample Soft Dev/35.jpg"
+            "./Sample Soft Dev/35.jpg"
         ],
         "ui_info": {
             "type": "multiple-choice",
@@ -788,7 +788,7 @@ const quizData = [
         "jawaban": "True, False, True",
         "penjelasan": "1 (True): Linked list dapat diurutkan meskipun algoritmanya berbeda dengan array. 2 (False): Linked list memiliki ukuran yang dinamis sesuai ketersediaan memori, tidak dibatasi hanya 100 node. 3 (True): Dengan manipulasi pointer/referensi, node baru dapat disisipkan di awal, tengah, atau akhir.",
         "images": [
-            "../Sample Soft Dev/36.jpg"
+            "./Sample Soft Dev/36.jpg"
         ],
         "ui_info": {
             "type": "true-false",
@@ -808,10 +808,10 @@ const quizData = [
         "jawaban": "1. BEGIN TRAN;\n2. ROLLBACK TRAN;\n3. COMMIT TRAN;",
         "penjelasan": "Transaksi dimulai dengan 'BEGIN TRAN'. Jika baris yang terhapus (@@ROWCOUNT) lebih dari 1, transaksi dibatalkan dengan 'ROLLBACK TRAN' untuk mengembalikan data seperti semula. Jika tidak, data valid untuk dihapus dan disimpan permanen dengan 'COMMIT TRAN'.",
         "images": [
-            "../Sample Soft Dev/37-1.jpg",
-            "../Sample Soft Dev/37-2.jpg",
-            "../Sample Soft Dev/37-3.jpg",
-            "../Sample Soft Dev/37-4.jpg"
+            "./Sample Soft Dev/37-1.jpg",
+            "./Sample Soft Dev/37-2.jpg",
+            "./Sample Soft Dev/37-3.jpg",
+            "./Sample Soft Dev/37-4.jpg"
         ],
         "ui_info": {
             "type": "dropdown",
@@ -832,7 +832,7 @@ const quizData = [
         "jawaban": "C. set",
         "penjelasan": "Dalam C#, keyword 'set' di dalam properti digunakan untuk memberikan akses tulis (write) kepada pengguna class. Sedangkan 'get' digunakan untuk akses baca (read).",
         "images": [
-            "../Sample Soft Dev/38.jpg"
+            "./Sample Soft Dev/38.jpg"
         ],
         "ui_info": {
             "type": "multiple-choice",
@@ -853,8 +853,8 @@ const quizData = [
         "jawaban": "1. branch\n2. commit\n3. push\n4. pull request\n5. merge",
         "penjelasan": "Alur kerja Git yang standar: membuat 'branch' baru untuk fitur, menyimpan perubahan secara lokal dengan 'commit', mengirimnya ke server dengan 'push', membuat 'pull request' agar tim me-review, lalu tim akan melakukan 'merge' untuk menggabungkannya ke branch utama.",
         "images": [
-            "../Sample Soft Dev/39-1.jpg",
-            "../Sample Soft Dev/39-2.jpg"
+            "./Sample Soft Dev/39-1.jpg",
+            "./Sample Soft Dev/39-2.jpg"
         ],
         "ui_info": {
             "type": "matching",
@@ -876,7 +876,7 @@ const quizData = [
         "jawaban": "B. The method can be overridden with its own implementation by a derived class.",
         "penjelasan": "Keyword 'virtual' menandakan bahwa sebuah metode di class dasar diizinkan untuk (opsional) di-override (ditulis ulang/diganti) oleh class turunan menggunakan keyword 'override'.",
         "images": [
-            "../Sample Soft Dev/40.jpg"
+            "./Sample Soft Dev/40.jpg"
         ],
         "ui_info": {
             "type": "multiple-choice",
